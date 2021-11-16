@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B082DF934E5AB57DE3C13C0644A01F /* UIView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2F01E555E92EEBE5A571D92851DEE /* UIView+Sweeter.swift */; };
+		13C78222DF788471E5957569357C8310 /* Pods-eyeRx-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 423700798DB9F1B98FEBCFB7BC68F0BE /* Pods-eyeRx-dummy.m */; };
+		187CD257DA3D13B196C85101F5BB0DAE /* UITextView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A82766EBB2A3657E9BAC0800E513D /* UITextView+Sweeter.swift */; };
+		1C877F8CD49B3EE5871C940C0A88DA15 /* MultiSegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E987A18AA898B5699B41FFB3BF18D /* MultiSegmentPicker.swift */; };
+		24BEF36CB0048A33128B85F016948ECB /* Codable+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545D63C947869D85BBA44E3FEC531E8F /* Codable+Sweeter.swift */; };
+		2F6BFDFCAB578C400661F74495131DBF /* UIStackView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FE83AAAA4D99F8FECD270C9658E009 /* UIStackView+Sweeter.swift */; };
+		3297F2B5ACF562231DC5D92DDC14DFD9 /* SweeterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0A5590195FEA5C460F2CB16D3DED3 /* SweeterSwift.framework */; };
+		3655638AEC12CCFF12F369BFD9885256 /* DateFormatter+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442D6228815D968FD6DEB9B436162BFA /* DateFormatter+Sweeter.swift */; };
+		55FE457E4C4DE8A81329CC72494ECA2E /* UIApplication+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A44685AD4A25445B020EAF73B40CAB /* UIApplication+Sweeter.swift */; };
+		591E277F32AB50FEF904910FDD35CAC8 /* SweeterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E54EAECCB967035F87AD4C72F2ED7F /* SweeterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		599775A741BB3CACD2A68C19FACC977F /* Swift+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F84CA7CF859BB018347E51C7CB565 /* Swift+Sweeter.swift */; };
+		710C4401042C2F488BE20F63A7E17C99 /* Pods-eyeRx-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 334D25E95A0A627ADE1BFFA4A43C8FF6 /* Pods-eyeRx-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7207365843B8D4747050E89E3A9A852C /* Bundle+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A1FD48E930389C0A6CD300F6EE443 /* Bundle+Sweeter.swift */; };
+		73A167E7A7CD083D3C0DE449622A3458 /* NSObject+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5846A3BC356F2540E208D938720695E5 /* NSObject+Sweeter.swift */; };
+		8D0419017EAB1A2DBA01E7F4288437EE /* MultiSelectSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EE6FFAED8B6640A7C2EB2A57A29AA9 /* MultiSelectSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968D73618220B0A9D7BA58D2232EDA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */; };
+		9D380FDDCBC9A683D8BBB1B8A4B6BD3D /* TimeInterval+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA3222B2BB5F3E59CACB0FD1C1B9B9 /* TimeInterval+Sweeter.swift */; };
+		9DB7B5B625BB12AC87F90FB806F3FB97 /* NSManagedObjectContext+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FBB93FFBA233CA0FABE263F9DA8ED7 /* NSManagedObjectContext+Sweeter.swift */; };
+		A202C7C6547629EED59284B90B6B235D /* MultiSelectSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A5394C27EB7CFD45B6BE615C91C40B /* MultiSelectSegment.swift */; };
+		A8F85A4EF1C3E5F95006A1D379B5F930 /* String+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E0E310DA93D697FD58453F9F6BB6A /* String+Sweeter.swift */; };
+		AD95D868504685504EA7E805F1D2AD9B /* UIViewController+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783D458BC5919B100CBCB749AEAE1E0 /* UIViewController+Sweeter.swift */; };
+		C2033B1434EB5922BA07EB62BB0E0CBA /* NSAttributedString+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776704781BBAD7AE06F18E1A69A27A2 /* NSAttributedString+Sweeter.swift */; };
+		CB97F890E02243F9976912694D947115 /* MultiSelectSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E355BF18D7CB74CD13C0477024E54D58 /* MultiSelectSegmentedControl-dummy.m */; };
+		CEF655D84AA26A228D72670BF8ED5D15 /* SweeterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFB717616E5EE24F6E6248C07F9DDBB /* SweeterSwift-dummy.m */; };
+		D9A3F6F90F4B983F4BF0DF0E1BB532B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */; };
+		DCE6A9F1E454EE57E536E083D6C969CA /* MultiSelectSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF74853FA1958B9DBAAB4BFA40D9D5 /* MultiSelectSegmentedControl.swift */; };
+		E0E4E9890A372007319F7A1C9F8A678C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		536AB1436CD48EA755975D56E7776757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07B7AE734D89C24DB2D55FFF6D96DA3;
+			remoteInfo = MultiSelectSegmentedControl;
+		};
+		59C34DB03599E06BAC9E49F51F898CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6819F499159C87193DDD7D51504DD6C1;
+			remoteInfo = SweeterSwift;
+		};
+		C2245AD2F914F8FC1FF223F12794EF8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6819F499159C87193DDD7D51504DD6C1;
+			remoteInfo = SweeterSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FBB93FFBA233CA0FABE263F9DA8ED7 /* NSManagedObjectContext+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+Sweeter.swift"; path = "Source/NSManagedObjectContext+Sweeter.swift"; sourceTree = "<group>"; };
+		0D31CB21E9B1A1580417B1261804AD7A /* Pods-eyeRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eyeRx.release.xcconfig"; sourceTree = "<group>"; };
+		0D5E0E310DA93D697FD58453F9F6BB6A /* String+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Sweeter.swift"; path = "Source/String+Sweeter.swift"; sourceTree = "<group>"; };
+		104D19CA4E1446D3902C76948FC9219D /* Pods-eyeRx-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eyeRx-acknowledgements.plist"; sourceTree = "<group>"; };
+		16FE83AAAA4D99F8FECD270C9658E009 /* UIStackView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Sweeter.swift"; path = "Source/UIStackView+Sweeter.swift"; sourceTree = "<group>"; };
+		18F30437AAC0D55AC5A076E59D074B4C /* MultiSelectSegmentedControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiSelectSegmentedControl.debug.xcconfig; sourceTree = "<group>"; };
+		21F37AFA7B37DC0D55CCDA33DE6D05BC /* MultiSelectSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MultiSelectSegmentedControl.modulemap; sourceTree = "<group>"; };
+		2480284716B0B0BA3C831AC394B592B6 /* SweeterSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweeterSwift.release.xcconfig; sourceTree = "<group>"; };
+		2E0E987A18AA898B5699B41FFB3BF18D /* MultiSegmentPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiSegmentPicker.swift; path = Sources/MultiSegmentPicker.swift; sourceTree = "<group>"; };
+		334D25E95A0A627ADE1BFFA4A43C8FF6 /* Pods-eyeRx-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eyeRx-umbrella.h"; sourceTree = "<group>"; };
+		34716F63B7A93F804CB2A652C57D42A8 /* MultiSelectSegmentedControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiSelectSegmentedControl.release.xcconfig; sourceTree = "<group>"; };
+		3776704781BBAD7AE06F18E1A69A27A2 /* NSAttributedString+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Sweeter.swift"; path = "Source/NSAttributedString+Sweeter.swift"; sourceTree = "<group>"; };
+		423700798DB9F1B98FEBCFB7BC68F0BE /* Pods-eyeRx-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eyeRx-dummy.m"; sourceTree = "<group>"; };
+		442D6228815D968FD6DEB9B436162BFA /* DateFormatter+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Sweeter.swift"; path = "Source/DateFormatter+Sweeter.swift"; sourceTree = "<group>"; };
+		481A1FD48E930389C0A6CD300F6EE443 /* Bundle+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Sweeter.swift"; path = "Source/Bundle+Sweeter.swift"; sourceTree = "<group>"; };
+		4E4F84CA7CF859BB018347E51C7CB565 /* Swift+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Swift+Sweeter.swift"; path = "Source/Swift+Sweeter.swift"; sourceTree = "<group>"; };
+		51C0A5590195FEA5C460F2CB16D3DED3 /* SweeterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweeterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545D63C947869D85BBA44E3FEC531E8F /* Codable+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Codable+Sweeter.swift"; path = "Source/Codable+Sweeter.swift"; sourceTree = "<group>"; };
+		57E54EAECCB967035F87AD4C72F2ED7F /* SweeterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-umbrella.h"; sourceTree = "<group>"; };
+		5846A3BC356F2540E208D938720695E5 /* NSObject+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Sweeter.swift"; path = "Source/NSObject+Sweeter.swift"; sourceTree = "<group>"; };
+		6783D458BC5919B100CBCB749AEAE1E0 /* UIViewController+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Sweeter.swift"; path = "Source/UIViewController+Sweeter.swift"; sourceTree = "<group>"; };
+		6CAF74853FA1958B9DBAAB4BFA40D9D5 /* MultiSelectSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiSelectSegmentedControl.swift; path = Sources/MultiSelectSegmentedControl.swift; sourceTree = "<group>"; };
+		82C4F28A45C51AAA8373F7898C7ABAAE /* Pods_eyeRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_eyeRx.framework; path = "Pods-eyeRx.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D2F01E555E92EEBE5A571D92851DEE /* UIView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Sweeter.swift"; path = "Source/UIView+Sweeter.swift"; sourceTree = "<group>"; };
+		89BA3222B2BB5F3E59CACB0FD1C1B9B9 /* TimeInterval+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Sweeter.swift"; path = "Source/TimeInterval+Sweeter.swift"; sourceTree = "<group>"; };
+		8FFB717616E5EE24F6E6248C07F9DDBB /* SweeterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweeterSwift-dummy.m"; sourceTree = "<group>"; };
+		9215AA7BBFDE3ACAFD6EEF565B13CC34 /* MultiSelectSegmentedControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MultiSelectSegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		95EFD6EBFE8EA2A58E289BB006EA0C50 /* Pods-eyeRx.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-eyeRx.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E41FC4E09A923C7DF41E50F496F9A2A /* Pods-eyeRx-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eyeRx-frameworks.sh"; sourceTree = "<group>"; };
+		A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A3DD636772DDC143EF06C056E2B69A4D /* Pods-eyeRx-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eyeRx-Info.plist"; sourceTree = "<group>"; };
+		B0A4BF71B1DA95DBE9B2CC011F36064D /* Pods-eyeRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eyeRx.debug.xcconfig"; sourceTree = "<group>"; };
+		B76CD9F952582A6A4387D799501B3950 /* SweeterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SweeterSwift.framework; path = SweeterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B774B3982B269E9119D1A2C118F04724 /* Pods-eyeRx-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eyeRx-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4EE6FFAED8B6640A7C2EB2A57A29AA9 /* MultiSelectSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiSelectSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		CE26C9B413EBBB10BA39F4B80B9F15BC /* MultiSelectSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiSelectSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		CE346E466FBA08CDA2FE015F5DAD3F84 /* SweeterSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SweeterSwift-Info.plist"; sourceTree = "<group>"; };
+		D4A44685AD4A25445B020EAF73B40CAB /* UIApplication+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Sweeter.swift"; path = "Source/UIApplication+Sweeter.swift"; sourceTree = "<group>"; };
+		D73B8085101763556705203FAA620300 /* SweeterSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweeterSwift.debug.xcconfig; sourceTree = "<group>"; };
+		DF2A82766EBB2A3657E9BAC0800E513D /* UITextView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Sweeter.swift"; path = "Source/UITextView+Sweeter.swift"; sourceTree = "<group>"; };
+		E355BF18D7CB74CD13C0477024E54D58 /* MultiSelectSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultiSelectSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		E6A5394C27EB7CFD45B6BE615C91C40B /* MultiSelectSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiSelectSegment.swift; path = Sources/MultiSelectSegment.swift; sourceTree = "<group>"; };
+		EFD65F4FD01349C73D25D94EB1857AE9 /* SweeterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-prefix.pch"; sourceTree = "<group>"; };
+		F45CCDC97037ED3782B48CAF87DD617F /* SweeterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweeterSwift.modulemap; sourceTree = "<group>"; };
+		F75AA00BE79A85F485A628B9C0D5263F /* MultiSelectSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MultiSelectSegmentedControl.framework; path = MultiSelectSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002DB87442F8AA079BA5C066903B42AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E4E9890A372007319F7A1C9F8A678C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E45FEA4885D43097FC9F42FCCA7B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A3F6F90F4B983F4BF0DF0E1BB532B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCFD5A69D05844D80C640AEDA6A2022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968D73618220B0A9D7BA58D2232EDA04 /* Foundation.framework in Frameworks */,
+				3297F2B5ACF562231DC5D92DDC14DFD9 /* SweeterSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341E83D6AEAC7081E4AB039AA2BC0FAA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3C428FCD78F6066881863BC75CBEDD63 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0FE08A28570BF713FD6270129038F9B /* Pods-eyeRx */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		682CD5EF96500D5039D0CC07A2F7376B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F37AFA7B37DC0D55CCDA33DE6D05BC /* MultiSelectSegmentedControl.modulemap */,
+				E355BF18D7CB74CD13C0477024E54D58 /* MultiSelectSegmentedControl-dummy.m */,
+				9215AA7BBFDE3ACAFD6EEF565B13CC34 /* MultiSelectSegmentedControl-Info.plist */,
+				CE26C9B413EBBB10BA39F4B80B9F15BC /* MultiSelectSegmentedControl-prefix.pch */,
+				C4EE6FFAED8B6640A7C2EB2A57A29AA9 /* MultiSelectSegmentedControl-umbrella.h */,
+				18F30437AAC0D55AC5A076E59D074B4C /* MultiSelectSegmentedControl.debug.xcconfig */,
+				34716F63B7A93F804CB2A652C57D42A8 /* MultiSelectSegmentedControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MultiSelectSegmentedControl";
+			sourceTree = "<group>";
+		};
+		6973FDFF9129490323A0EDD908889846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75AA00BE79A85F485A628B9C0D5263F /* MultiSelectSegmentedControl.framework */,
+				82C4F28A45C51AAA8373F7898C7ABAAE /* Pods_eyeRx.framework */,
+				B76CD9F952582A6A4387D799501B3950 /* SweeterSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C463FDDFC03C42C1D24EB1AA1CAC677A /* SweeterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				481A1FD48E930389C0A6CD300F6EE443 /* Bundle+Sweeter.swift */,
+				545D63C947869D85BBA44E3FEC531E8F /* Codable+Sweeter.swift */,
+				442D6228815D968FD6DEB9B436162BFA /* DateFormatter+Sweeter.swift */,
+				3776704781BBAD7AE06F18E1A69A27A2 /* NSAttributedString+Sweeter.swift */,
+				07FBB93FFBA233CA0FABE263F9DA8ED7 /* NSManagedObjectContext+Sweeter.swift */,
+				5846A3BC356F2540E208D938720695E5 /* NSObject+Sweeter.swift */,
+				0D5E0E310DA93D697FD58453F9F6BB6A /* String+Sweeter.swift */,
+				4E4F84CA7CF859BB018347E51C7CB565 /* Swift+Sweeter.swift */,
+				89BA3222B2BB5F3E59CACB0FD1C1B9B9 /* TimeInterval+Sweeter.swift */,
+				D4A44685AD4A25445B020EAF73B40CAB /* UIApplication+Sweeter.swift */,
+				16FE83AAAA4D99F8FECD270C9658E009 /* UIStackView+Sweeter.swift */,
+				DF2A82766EBB2A3657E9BAC0800E513D /* UITextView+Sweeter.swift */,
+				87D2F01E555E92EEBE5A571D92851DEE /* UIView+Sweeter.swift */,
+				6783D458BC5919B100CBCB749AEAE1E0 /* UIViewController+Sweeter.swift */,
+				CB32CC4BB7AB2EA769F85FF22F1D932F /* Support Files */,
+			);
+			name = SweeterSwift;
+			path = SweeterSwift;
+			sourceTree = "<group>";
+		};
+		CB32CC4BB7AB2EA769F85FF22F1D932F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F45CCDC97037ED3782B48CAF87DD617F /* SweeterSwift.modulemap */,
+				8FFB717616E5EE24F6E6248C07F9DDBB /* SweeterSwift-dummy.m */,
+				CE346E466FBA08CDA2FE015F5DAD3F84 /* SweeterSwift-Info.plist */,
+				EFD65F4FD01349C73D25D94EB1857AE9 /* SweeterSwift-prefix.pch */,
+				57E54EAECCB967035F87AD4C72F2ED7F /* SweeterSwift-umbrella.h */,
+				D73B8085101763556705203FAA620300 /* SweeterSwift.debug.xcconfig */,
+				2480284716B0B0BA3C831AC394B592B6 /* SweeterSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SweeterSwift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D2A4E4C2B9AB233C330C04365A549B28 /* Frameworks */,
+				D3A90AE3F3DA98B88D28A96A772E750E /* Pods */,
+				6973FDFF9129490323A0EDD908889846 /* Products */,
+				3C428FCD78F6066881863BC75CBEDD63 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A4E4C2B9AB233C330C04365A549B28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51C0A5590195FEA5C460F2CB16D3DED3 /* SweeterSwift.framework */,
+				341E83D6AEAC7081E4AB039AA2BC0FAA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3A90AE3F3DA98B88D28A96A772E750E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE06D1786D079EB009221778F10FC0EC /* MultiSelectSegmentedControl */,
+				C463FDDFC03C42C1D24EB1AA1CAC677A /* SweeterSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0FE08A28570BF713FD6270129038F9B /* Pods-eyeRx */ = {
+			isa = PBXGroup;
+			children = (
+				95EFD6EBFE8EA2A58E289BB006EA0C50 /* Pods-eyeRx.modulemap */,
+				B774B3982B269E9119D1A2C118F04724 /* Pods-eyeRx-acknowledgements.markdown */,
+				104D19CA4E1446D3902C76948FC9219D /* Pods-eyeRx-acknowledgements.plist */,
+				423700798DB9F1B98FEBCFB7BC68F0BE /* Pods-eyeRx-dummy.m */,
+				9E41FC4E09A923C7DF41E50F496F9A2A /* Pods-eyeRx-frameworks.sh */,
+				A3DD636772DDC143EF06C056E2B69A4D /* Pods-eyeRx-Info.plist */,
+				334D25E95A0A627ADE1BFFA4A43C8FF6 /* Pods-eyeRx-umbrella.h */,
+				B0A4BF71B1DA95DBE9B2CC011F36064D /* Pods-eyeRx.debug.xcconfig */,
+				0D31CB21E9B1A1580417B1261804AD7A /* Pods-eyeRx.release.xcconfig */,
+			);
+			name = "Pods-eyeRx";
+			path = "Target Support Files/Pods-eyeRx";
+			sourceTree = "<group>";
+		};
+		EE06D1786D079EB009221778F10FC0EC /* MultiSelectSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				2E0E987A18AA898B5699B41FFB3BF18D /* MultiSegmentPicker.swift */,
+				E6A5394C27EB7CFD45B6BE615C91C40B /* MultiSelectSegment.swift */,
+				6CAF74853FA1958B9DBAAB4BFA40D9D5 /* MultiSelectSegmentedControl.swift */,
+				682CD5EF96500D5039D0CC07A2F7376B /* Support Files */,
+			);
+			name = MultiSelectSegmentedControl;
+			path = MultiSelectSegmentedControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		056635C892A33C2FEE47FCB405FAEE7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0419017EAB1A2DBA01E7F4288437EE /* MultiSelectSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09883EA97DE1530A7CC684C2CB1F084C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710C4401042C2F488BE20F63A7E17C99 /* Pods-eyeRx-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C029BE438D9E3C7F1853AE6A289E935 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591E277F32AB50FEF904910FDD35CAC8 /* SweeterSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432727926C67E1707F6623F1288D9AFB /* Build configuration list for PBXNativeTarget "SweeterSwift" */;
+			buildPhases = (
+				7C029BE438D9E3C7F1853AE6A289E935 /* Headers */,
+				48D7432112C5895F24610427F82C70AE /* Sources */,
+				002DB87442F8AA079BA5C066903B42AF /* Frameworks */,
+				038915C147414AA0A4C9929155E4B5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweeterSwift;
+			productName = SweeterSwift;
+			productReference = B76CD9F952582A6A4387D799501B3950 /* SweeterSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0846D532C1F3077D6F6242E210ACF84 /* Pods-eyeRx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82798F98237338ECFE275C9577C46C84 /* Build configuration list for PBXNativeTarget "Pods-eyeRx" */;
+			buildPhases = (
+				09883EA97DE1530A7CC684C2CB1F084C /* Headers */,
+				87CAE0D7A71C532FDE20CA9B36BD2856 /* Sources */,
+				04E45FEA4885D43097FC9F42FCCA7B42 /* Frameworks */,
+				EE1E88E968B1C15B82E8652CA5CA9C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58EDDC6B13E5B3E375A024FC1E0BA683 /* PBXTargetDependency */,
+				18B6763DECD3817E321DB87D4E4A4034 /* PBXTargetDependency */,
+			);
+			name = "Pods-eyeRx";
+			productName = "Pods-eyeRx";
+			productReference = 82C4F28A45C51AAA8373F7898C7ABAAE /* Pods_eyeRx.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C07B7AE734D89C24DB2D55FFF6D96DA3 /* MultiSelectSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769312A751CCAFA2C11176E9C687C70A /* Build configuration list for PBXNativeTarget "MultiSelectSegmentedControl" */;
+			buildPhases = (
+				056635C892A33C2FEE47FCB405FAEE7C /* Headers */,
+				ACF92F352297C60348A00933C8619175 /* Sources */,
+				1FCFD5A69D05844D80C640AEDA6A2022 /* Frameworks */,
+				AD27BA73344A53B0CA239153E0FD8587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F1C2363F350085B6018AD103C55EAD /* PBXTargetDependency */,
+			);
+			name = MultiSelectSegmentedControl;
+			productName = MultiSelectSegmentedControl;
+			productReference = F75AA00BE79A85F485A628B9C0D5263F /* MultiSelectSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6973FDFF9129490323A0EDD908889846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07B7AE734D89C24DB2D55FFF6D96DA3 /* MultiSelectSegmentedControl */,
+				B0846D532C1F3077D6F6242E210ACF84 /* Pods-eyeRx */,
+				6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		038915C147414AA0A4C9929155E4B5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD27BA73344A53B0CA239153E0FD8587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1E88E968B1C15B82E8652CA5CA9C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48D7432112C5895F24610427F82C70AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207365843B8D4747050E89E3A9A852C /* Bundle+Sweeter.swift in Sources */,
+				24BEF36CB0048A33128B85F016948ECB /* Codable+Sweeter.swift in Sources */,
+				3655638AEC12CCFF12F369BFD9885256 /* DateFormatter+Sweeter.swift in Sources */,
+				C2033B1434EB5922BA07EB62BB0E0CBA /* NSAttributedString+Sweeter.swift in Sources */,
+				9DB7B5B625BB12AC87F90FB806F3FB97 /* NSManagedObjectContext+Sweeter.swift in Sources */,
+				73A167E7A7CD083D3C0DE449622A3458 /* NSObject+Sweeter.swift in Sources */,
+				A8F85A4EF1C3E5F95006A1D379B5F930 /* String+Sweeter.swift in Sources */,
+				CEF655D84AA26A228D72670BF8ED5D15 /* SweeterSwift-dummy.m in Sources */,
+				599775A741BB3CACD2A68C19FACC977F /* Swift+Sweeter.swift in Sources */,
+				9D380FDDCBC9A683D8BBB1B8A4B6BD3D /* TimeInterval+Sweeter.swift in Sources */,
+				55FE457E4C4DE8A81329CC72494ECA2E /* UIApplication+Sweeter.swift in Sources */,
+				2F6BFDFCAB578C400661F74495131DBF /* UIStackView+Sweeter.swift in Sources */,
+				187CD257DA3D13B196C85101F5BB0DAE /* UITextView+Sweeter.swift in Sources */,
+				01B082DF934E5AB57DE3C13C0644A01F /* UIView+Sweeter.swift in Sources */,
+				AD95D868504685504EA7E805F1D2AD9B /* UIViewController+Sweeter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CAE0D7A71C532FDE20CA9B36BD2856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C78222DF788471E5957569357C8310 /* Pods-eyeRx-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF92F352297C60348A00933C8619175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C877F8CD49B3EE5871C940C0A88DA15 /* MultiSegmentPicker.swift in Sources */,
+				A202C7C6547629EED59284B90B6B235D /* MultiSelectSegment.swift in Sources */,
+				CB97F890E02243F9976912694D947115 /* MultiSelectSegmentedControl-dummy.m in Sources */,
+				DCE6A9F1E454EE57E536E083D6C969CA /* MultiSelectSegmentedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B6763DECD3817E321DB87D4E4A4034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SweeterSwift;
+			target = 6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */;
+			targetProxy = C2245AD2F914F8FC1FF223F12794EF8B /* PBXContainerItemProxy */;
+		};
+		58EDDC6B13E5B3E375A024FC1E0BA683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MultiSelectSegmentedControl;
+			target = C07B7AE734D89C24DB2D55FFF6D96DA3 /* MultiSelectSegmentedControl */;
+			targetProxy = 536AB1436CD48EA755975D56E7776757 /* PBXContainerItemProxy */;
+		};
+		98F1C2363F350085B6018AD103C55EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SweeterSwift;
+			target = 6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */;
+			targetProxy = 59C34DB03599E06BAC9E49F51F898CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E0460D651D0D663C2F9234878142A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A4BF71B1DA95DBE9B2CC011F36064D /* Pods-eyeRx.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eyeRx/Pods-eyeRx-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eyeRx/Pods-eyeRx.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38C94FF4843E3C463A671F0C0BE1A7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F30437AAC0D55AC5A076E59D074B4C /* MultiSelectSegmentedControl.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiSelectSegmentedControl/MultiSelectSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiSelectSegmentedControl/MultiSelectSegmentedControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/MultiSelectSegmentedControl/MultiSelectSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = MultiSelectSegmentedControl;
+				PRODUCT_NAME = MultiSelectSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		594E22731406100A229D5CB17395CE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73B8085101763556705203FAA620300 /* SweeterSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweeterSwift/SweeterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweeterSwift/SweeterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SweeterSwift/SweeterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SweeterSwift;
+				PRODUCT_NAME = SweeterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C379D3BA490255FA5264C9BCF5DCAF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2480284716B0B0BA3C831AC394B592B6 /* SweeterSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweeterSwift/SweeterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweeterSwift/SweeterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SweeterSwift/SweeterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SweeterSwift;
+				PRODUCT_NAME = SweeterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6EEDCA13CBA11BC902B6E29DC4EF881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34716F63B7A93F804CB2A652C57D42A8 /* MultiSelectSegmentedControl.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiSelectSegmentedControl/MultiSelectSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiSelectSegmentedControl/MultiSelectSegmentedControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/MultiSelectSegmentedControl/MultiSelectSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = MultiSelectSegmentedControl;
+				PRODUCT_NAME = MultiSelectSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE13735A8117C93C2916EAF08F33066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D31CB21E9B1A1580417B1261804AD7A /* Pods-eyeRx.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eyeRx/Pods-eyeRx-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eyeRx/Pods-eyeRx.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432727926C67E1707F6623F1288D9AFB /* Build configuration list for PBXNativeTarget "SweeterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594E22731406100A229D5CB17395CE64 /* Debug */,
+				C379D3BA490255FA5264C9BCF5DCAF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769312A751CCAFA2C11176E9C687C70A /* Build configuration list for PBXNativeTarget "MultiSelectSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C94FF4843E3C463A671F0C0BE1A7A1 /* Debug */,
+				E6EEDCA13CBA11BC902B6E29DC4EF881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82798F98237338ECFE275C9577C46C84 /* Build configuration list for PBXNativeTarget "Pods-eyeRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0460D651D0D663C2F9234878142A38 /* Debug */,
+				FE13735A8117C93C2916EAF08F33066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

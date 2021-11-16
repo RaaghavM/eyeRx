@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3631CC249FEBFB00D412E5 /* CustomPrintPageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3631CB249FEBFB00D412E5 /* CustomPrintPageRenderer.swift */; };
+		5D3631CE24A0084C00D412E5 /* drop_list.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D3631CD24A0084C00D412E5 /* drop_list.html */; };
+		5D3631D024A0087600D412E5 /* drop_item.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D3631CF24A0087600D412E5 /* drop_item.html */; };
+		5D3631D624A0093500D412E5 /* drop_item_last.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D3631D524A0093500D412E5 /* drop_item_last.html */; };
+		5D3631D824A0098500D412E5 /* EyedropListComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3631D724A0098500D412E5 /* EyedropListComposer.swift */; };
+		5D3631DA24A12EF000D412E5 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3631D924A12EF000D412E5 /* AboutUsViewController.swift */; };
+		5D9F843124DFB7DB00F74B40 /* Base64VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F843024DFB7DB00F74B40 /* Base64VC.swift */; };
+		5D9F843324E0956900F74B40 /* EditFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F843224E0956800F74B40 /* EditFooterViewController.swift */; };
+		5D9F843524E0992700F74B40 /* FooterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F843424E0992600F74B40 /* FooterData.swift */; };
+		5D9F843824E1D55900F74B40 /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F843724E1D55900F74B40 /* FavoritesData.swift */; };
+		5DA9E09724A43E3C005E0FE0 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9E09624A43E3C005E0FE0 /* QRViewController.swift */; };
+		5DA9E0AF24B24F43005E0FE0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9E0AE24B24F43005E0FE0 /* Podfile */; };
+		5DEBF68624985794002BD1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF68524985794002BD1C2 /* AppDelegate.swift */; };
+		5DEBF68824985794002BD1C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF68724985794002BD1C2 /* SceneDelegate.swift */; };
+		5DEBF68D24985794002BD1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEBF68B24985794002BD1C2 /* Main.storyboard */; };
+		5DEBF68F24985796002BD1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEBF68E24985796002BD1C2 /* Assets.xcassets */; };
+		5DEBF69224985796002BD1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEBF69024985796002BD1C2 /* LaunchScreen.storyboard */; };
+		5DEBF69D24985796002BD1C2 /* eyeRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF69C24985796002BD1C2 /* eyeRxTests.swift */; };
+		5DEBF6A824985D1B002BD1C2 /* MyEyedropTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF6A724985D1B002BD1C2 /* MyEyedropTableTableViewController.swift */; };
+		5DEBF6AA249956A0002BD1C2 /* Eyedrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF6A9249956A0002BD1C2 /* Eyedrop.swift */; };
+		5DEBF6AC24995884002BD1C2 /* MyEyedropTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF6AB24995884002BD1C2 /* MyEyedropTableViewCell.swift */; };
+		5DEBF6AE249AE681002BD1C2 /* FullEyedropListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF6AD249AE681002BD1C2 /* FullEyedropListTableViewController.swift */; };
+		5DEBF6B0249AEDFD002BD1C2 /* DropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF6AF249AEDFD002BD1C2 /* DropViewController.swift */; };
+		5DEBF6B2249C73BF002BD1C2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF6B1249C73BF002BD1C2 /* UIView+Extension.swift */; };
+		5DEBF6B7249D4F39002BD1C2 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBF6B6249D4F39002BD1C2 /* UIImage+Extension.swift */; };
+		8BDEF586C4CC5D05A157317B /* Pods_eyeRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061CBA0E4363D52829423ADA /* Pods_eyeRx.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DEBF69924985796002BD1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DEBF67A24985794002BD1C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DEBF68124985794002BD1C2;
+			remoteInfo = eyeRx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061CBA0E4363D52829423ADA /* Pods_eyeRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eyeRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1136F000C287B5920D80CA6B /* Pods-eyeRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyeRx.release.xcconfig"; path = "Target Support Files/Pods-eyeRx/Pods-eyeRx.release.xcconfig"; sourceTree = "<group>"; };
+		5D3631CB249FEBFB00D412E5 /* CustomPrintPageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrintPageRenderer.swift; sourceTree = "<group>"; };
+		5D3631CD24A0084C00D412E5 /* drop_list.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = drop_list.html; sourceTree = "<group>"; };
+		5D3631CF24A0087600D412E5 /* drop_item.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = drop_item.html; sourceTree = "<group>"; };
+		5D3631D524A0093500D412E5 /* drop_item_last.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = drop_item_last.html; sourceTree = "<group>"; };
+		5D3631D724A0098500D412E5 /* EyedropListComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyedropListComposer.swift; sourceTree = "<group>"; };
+		5D3631D924A12EF000D412E5 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		5D9F843024DFB7DB00F74B40 /* Base64VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64VC.swift; sourceTree = "<group>"; };
+		5D9F843224E0956800F74B40 /* EditFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFooterViewController.swift; sourceTree = "<group>"; };
+		5D9F843424E0992600F74B40 /* FooterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterData.swift; sourceTree = "<group>"; };
+		5D9F843724E1D55900F74B40 /* FavoritesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
+		5DA9E09624A43E3C005E0FE0 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		5DA9E0AE24B24F43005E0FE0 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5DEBF68224985794002BD1C2 /* eyeRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eyeRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEBF68524985794002BD1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DEBF68724985794002BD1C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5DEBF68C24985794002BD1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DEBF68E24985796002BD1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DEBF69124985796002BD1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DEBF69324985796002BD1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEBF69824985796002BD1C2 /* eyeRxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eyeRxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEBF69C24985796002BD1C2 /* eyeRxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eyeRxTests.swift; sourceTree = "<group>"; };
+		5DEBF69E24985796002BD1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEBF6A724985D1B002BD1C2 /* MyEyedropTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEyedropTableTableViewController.swift; sourceTree = "<group>"; };
+		5DEBF6A9249956A0002BD1C2 /* Eyedrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eyedrop.swift; sourceTree = "<group>"; };
+		5DEBF6AB24995884002BD1C2 /* MyEyedropTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEyedropTableViewCell.swift; sourceTree = "<group>"; };
+		5DEBF6AD249AE681002BD1C2 /* FullEyedropListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullEyedropListTableViewController.swift; sourceTree = "<group>"; };
+		5DEBF6AF249AEDFD002BD1C2 /* DropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropViewController.swift; sourceTree = "<group>"; };
+		5DEBF6B1249C73BF002BD1C2 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5DEBF6B6249D4F39002BD1C2 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		925671B95412E066216AE8B4 /* Pods-eyeRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyeRx.debug.xcconfig"; path = "Target Support Files/Pods-eyeRx/Pods-eyeRx.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DEBF67F24985794002BD1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDEF586C4CC5D05A157317B /* Pods_eyeRx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEBF69524985796002BD1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DA9E09B24B03C04005E0FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				061CBA0E4363D52829423ADA /* Pods_eyeRx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DEBF67924985794002BD1C2 = {
+			isa = PBXGroup;
+			children = (
+				5D3631CD24A0084C00D412E5 /* drop_list.html */,
+				5D3631CF24A0087600D412E5 /* drop_item.html */,
+				5D3631D524A0093500D412E5 /* drop_item_last.html */,
+				5DA9E0AE24B24F43005E0FE0 /* Podfile */,
+				5DEBF68424985794002BD1C2 /* eyeRx */,
+				5DEBF69B24985796002BD1C2 /* eyeRxTests */,
+				5DEBF68324985794002BD1C2 /* Products */,
+				5DA9E09B24B03C04005E0FE0 /* Frameworks */,
+				84C6B2334FF6F13C4FB6BCD4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5DEBF68324985794002BD1C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DEBF68224985794002BD1C2 /* eyeRx.app */,
+				5DEBF69824985796002BD1C2 /* eyeRxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DEBF68424985794002BD1C2 /* eyeRx */ = {
+			isa = PBXGroup;
+			children = (
+				5DEBF68524985794002BD1C2 /* AppDelegate.swift */,
+				5DEBF6B1249C73BF002BD1C2 /* UIView+Extension.swift */,
+				5DEBF6B6249D4F39002BD1C2 /* UIImage+Extension.swift */,
+				5DEBF68724985794002BD1C2 /* SceneDelegate.swift */,
+				5DEBF6A724985D1B002BD1C2 /* MyEyedropTableTableViewController.swift */,
+				5D3631CB249FEBFB00D412E5 /* CustomPrintPageRenderer.swift */,
+				5D9F843024DFB7DB00F74B40 /* Base64VC.swift */,
+				5DEBF6AD249AE681002BD1C2 /* FullEyedropListTableViewController.swift */,
+				5DEBF6AF249AEDFD002BD1C2 /* DropViewController.swift */,
+				5DEBF6A9249956A0002BD1C2 /* Eyedrop.swift */,
+				5DEBF6AB24995884002BD1C2 /* MyEyedropTableViewCell.swift */,
+				5D3631D724A0098500D412E5 /* EyedropListComposer.swift */,
+				5D9F843424E0992600F74B40 /* FooterData.swift */,
+				5D9F843724E1D55900F74B40 /* FavoritesData.swift */,
+				5D3631D924A12EF000D412E5 /* AboutUsViewController.swift */,
+				5DA9E09624A43E3C005E0FE0 /* QRViewController.swift */,
+				5D9F843224E0956800F74B40 /* EditFooterViewController.swift */,
+				5DEBF68B24985794002BD1C2 /* Main.storyboard */,
+				5DEBF69024985796002BD1C2 /* LaunchScreen.storyboard */,
+				5DEBF68E24985796002BD1C2 /* Assets.xcassets */,
+				5DEBF69324985796002BD1C2 /* Info.plist */,
+			);
+			path = eyeRx;
+			sourceTree = "<group>";
+		};
+		5DEBF69B24985796002BD1C2 /* eyeRxTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DEBF69C24985796002BD1C2 /* eyeRxTests.swift */,
+				5DEBF69E24985796002BD1C2 /* Info.plist */,
+			);
+			path = eyeRxTests;
+			sourceTree = "<group>";
+		};
+		84C6B2334FF6F13C4FB6BCD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				925671B95412E066216AE8B4 /* Pods-eyeRx.debug.xcconfig */,
+				1136F000C287B5920D80CA6B /* Pods-eyeRx.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DEBF68124985794002BD1C2 /* eyeRx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DEBF6A124985797002BD1C2 /* Build configuration list for PBXNativeTarget "eyeRx" */;
+			buildPhases = (
+				38608DE896FA42DC89ACC5AB /* [CP] Check Pods Manifest.lock */,
+				5DEBF67E24985794002BD1C2 /* Sources */,
+				5DEBF67F24985794002BD1C2 /* Frameworks */,
+				5DEBF68024985794002BD1C2 /* Resources */,
+				CF78749C25907A39D97B36CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eyeRx;
+			productName = eyeRx;
+			productReference = 5DEBF68224985794002BD1C2 /* eyeRx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DEBF69724985796002BD1C2 /* eyeRxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DEBF6A424985797002BD1C2 /* Build configuration list for PBXNativeTarget "eyeRxTests" */;
+			buildPhases = (
+				5DEBF69424985796002BD1C2 /* Sources */,
+				5DEBF69524985796002BD1C2 /* Frameworks */,
+				5DEBF69624985796002BD1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DEBF69A24985796002BD1C2 /* PBXTargetDependency */,
+			);
+			name = eyeRxTests;
+			productName = eyeRxTests;
+			productReference = 5DEBF69824985796002BD1C2 /* eyeRxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DEBF67A24985794002BD1C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = mHealthWellnessLLC;
+				TargetAttributes = {
+					5DEBF68124985794002BD1C2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5DEBF69724985796002BD1C2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5DEBF68124985794002BD1C2;
+					};
+				};
+			};
+			buildConfigurationList = 5DEBF67D24985794002BD1C2 /* Build configuration list for PBXProject "eyeRx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DEBF67924985794002BD1C2;
+			packageReferences = (
+				5DEBF6B3249D447A002BD1C2 /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */,
+				5DA9E09824AEA284005E0FE0 /* XCRemoteSwiftPackageReference "SweeterSwift" */,
+			);
+			productRefGroup = 5DEBF68324985794002BD1C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DEBF68124985794002BD1C2 /* eyeRx */,
+				5DEBF69724985796002BD1C2 /* eyeRxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DEBF68024985794002BD1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEBF69224985796002BD1C2 /* LaunchScreen.storyboard in Resources */,
+				5D3631CE24A0084C00D412E5 /* drop_list.html in Resources */,
+				5D3631D624A0093500D412E5 /* drop_item_last.html in Resources */,
+				5DEBF68F24985796002BD1C2 /* Assets.xcassets in Resources */,
+				5DEBF68D24985794002BD1C2 /* Main.storyboard in Resources */,
+				5DA9E0AF24B24F43005E0FE0 /* Podfile in Resources */,
+				5D3631D024A0087600D412E5 /* drop_item.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEBF69624985796002BD1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38608DE896FA42DC89ACC5AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eyeRx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF78749C25907A39D97B36CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyeRx/Pods-eyeRx-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyeRx/Pods-eyeRx-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eyeRx/Pods-eyeRx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DEBF67E24985794002BD1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEBF6AA249956A0002BD1C2 /* Eyedrop.swift in Sources */,
+				5DEBF6A824985D1B002BD1C2 /* MyEyedropTableTableViewController.swift in Sources */,
+				5DEBF6B2249C73BF002BD1C2 /* UIView+Extension.swift in Sources */,
+				5D9F843324E0956900F74B40 /* EditFooterViewController.swift in Sources */,
+				5D9F843524E0992700F74B40 /* FooterData.swift in Sources */,
+				5DEBF6B7249D4F39002BD1C2 /* UIImage+Extension.swift in Sources */,
+				5D3631DA24A12EF000D412E5 /* AboutUsViewController.swift in Sources */,
+				5DEBF6AC24995884002BD1C2 /* MyEyedropTableViewCell.swift in Sources */,
+				5DEBF6AE249AE681002BD1C2 /* FullEyedropListTableViewController.swift in Sources */,
+				5D9F843824E1D55900F74B40 /* FavoritesData.swift in Sources */,
+				5D9F843124DFB7DB00F74B40 /* Base64VC.swift in Sources */,
+				5DEBF6B0249AEDFD002BD1C2 /* DropViewController.swift in Sources */,
+				5DEBF68624985794002BD1C2 /* AppDelegate.swift in Sources */,
+				5D3631CC249FEBFB00D412E5 /* CustomPrintPageRenderer.swift in Sources */,
+				5DA9E09724A43E3C005E0FE0 /* QRViewController.swift in Sources */,
+				5D3631D824A0098500D412E5 /* EyedropListComposer.swift in Sources */,
+				5DEBF68824985794002BD1C2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEBF69424985796002BD1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEBF69D24985796002BD1C2 /* eyeRxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DEBF69A24985796002BD1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DEBF68124985794002BD1C2 /* eyeRx */;
+			targetProxy = 5DEBF69924985796002BD1C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DEBF68B24985794002BD1C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DEBF68C24985794002BD1C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DEBF69024985796002BD1C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DEBF69124985796002BD1C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DEBF69F24985797002BD1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DEBF6A024985797002BD1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DEBF6A224985797002BD1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925671B95412E066216AE8B4 /* Pods-eyeRx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = R5SK6ULQGL;
+				INFOPLIST_FILE = eyeRx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mHealthWellnessLLC.eyeRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5DEBF6A324985797002BD1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1136F000C287B5920D80CA6B /* Pods-eyeRx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = R5SK6ULQGL;
+				INFOPLIST_FILE = eyeRx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mHealthWellnessLLC.eyeRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5DEBF6A524985797002BD1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SK6ULQGL;
+				INFOPLIST_FILE = eyeRxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mHealthWellnessLLC.eyeRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyeRx.app/eyeRx";
+			};
+			name = Debug;
+		};
+		5DEBF6A624985797002BD1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SK6ULQGL;
+				INFOPLIST_FILE = eyeRxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mHealthWellnessLLC.eyeRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyeRx.app/eyeRx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DEBF67D24985794002BD1C2 /* Build configuration list for PBXProject "eyeRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEBF69F24985797002BD1C2 /* Debug */,
+				5DEBF6A024985797002BD1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DEBF6A124985797002BD1C2 /* Build configuration list for PBXNativeTarget "eyeRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEBF6A224985797002BD1C2 /* Debug */,
+				5DEBF6A324985797002BD1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DEBF6A424985797002BD1C2 /* Build configuration list for PBXNativeTarget "eyeRxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEBF6A524985797002BD1C2 /* Debug */,
+				5DEBF6A624985797002BD1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DA9E09824AEA284005E0FE0 /* XCRemoteSwiftPackageReference "SweeterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yonat/SweeterSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.3;
+			};
+		};
+		5DEBF6B3249D447A002BD1C2 /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yonat/MultiSelectSegmentedControl";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 5DEBF67A24985794002BD1C2 /* Project object */;
+}
