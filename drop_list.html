@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type">
+            <title>A simple, clean, and responsive HTML template</title>
+            <style>
+                .invoice-box{
+                    max-width:1000px;
+                    margin:auto;
+                    padding:0px;
+                    /*border:1px solid #eee;*/
+                    /*box-shadow:0 0 10px rgba(0, 0, 0, .15); */
+                    font-size:20px;
+                    line-height:24px;
+                    font-family:'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+                    color:#555;
+                }
+            
+            .invoice-box table{
+                width: 100%;
+                line-height:inherit;
+                text-align:left;
+                table-layout:fixed;
+            }
+            
+            .invoice-box table td{
+                padding: 5px;
+                vertical-align:top;
+                text-align:center;
+                word-wrap:break-word
+            }
+            
+            .invoice-box table tr td:nth-child(2){
+                text-align:center;
+            }
+            
+            
+            .invoice-box table tr:nth-child(1) td:nth-child(1){
+                text-align:left;
+                width: 200px;
+            }
+            
+            .invoice-box table tr:nth-child(1) td:nth-child(2){
+                text-align:right;
+                width: 200px;
+            }
+            
+            .invoice-box table tr.top table td{
+                padding-bottom:20px;
+            }
+            
+            .invoice-box table tr.top table td.title{
+                font-size:60px;
+                line-height:45px;
+                color:#333;
+            }
+            
+            .invoice-box table tr.information table td{
+                padding-bottom:40px;
+            }
+            
+            .invoice-box table tr.heading td{
+                background:#eee;
+                border-bottom:1px solid #ddd;
+                font-weight:bold;
+                font-size:25px;
+                padding:5px;
+            }
+            
+            .invoice-box table tr.details td{
+                padding-bottom:20px;
+            }
+            
+            .invoice-box table tr.item td{
+                border-bottom:3px solid #eee;
+                font-size:25px;
+            }
+            
+            .invoice-box table tr.item.last td{
+                border-bottom:none;
+                font-size:25px;
+                padding-bottom:25px
+            }
+            
+            #TAPER_ROWS#{
+                font-size:22px;
+                text-align:left;
+            }
+            
+            
+            
+            .invoice-box table tr.total td:nth-child(2){
+                border-top:2px solid #eee;
+                font-weight:bold;
+            }
+            
+            @media only screen and (max-width: 600px) {
+                .invoice-box table tr.top table td{
+                    width:100%;
+                    display:block;
+                    text-align:center;
+                }
+                
+                .invoice-box table tr.information table td{
+                    width:100%;
+                    display:block;
+                    text-align:center;
+                }
+            }
+            
+            .box {
+              float: center;
+              height: 35px;
+              width: 35px;
+              margin: auto;
+              border: 1px solid black;
+              clear: both;
+            }
+
+            .red_eyedrop {
+              background-color: #E50A18;
+            }
+
+            .blue_eyedrop {
+              background-color: #2A23F8;
+            }
+            
+            .gray_eyedrop {
+              background-color: #8E8E8E;
+            }
+            
+            .orange_eyedrop {
+              background-color: #E85F1D;
+            }
+            
+            .pink_eyedrop {
+              background-color: #FC6063;
+            }
+            
+            .purple_eyedrop {
+              background-color: #CB27FB;
+            }
+            
+            .tan_eyedrop {
+              background-color: #D0B282;
+            }
+            
+            .turquoise_eyedrop {
+              background-color: #24DCA9;
+            }
+            
+            .white_eyedrop {
+              background-color: #FFFFFF;
+            }
+            
+            .yellow_eyedrop {
+              background-color: #EDE432;
+            }
+            
+            footer {
+              text-align: center;
+              background-color: DarkSalmon;
+              font-family:'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+              color: white;
+              font-size:28px;
+            }
+            
+            </style>
+            </head>
+    <body>
+        <div class="invoice-box" >
+            <table cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr class="top">
+                        <td colspan="5">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            #DOC_INFO#<br>
+                                        </td>
+                                        <td>
+                                            #CURRENT_DATE#<br>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <tr class="heading">
+                        <td> Cap Color </td>
+                        <td> Eyedrop </td>
+                        <td> Which Eye? </td>
+                        <td> Take At: </td>
+                        <td> Duration </td>
+                    </tr>
+                    
+                    #ITEMS#
+
+                    
+                </tbody>
+            </table>
+            
+        </div>
+        
+    </body>
+    <!--<footer>
+        <p>#DOC_INFO#</p>
+    </footer>-->
+</html>
+
